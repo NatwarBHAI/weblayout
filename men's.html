@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's</title>
+    <style>
+        *{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #container {
+            width: 95%;
+            display: grid;
+            margin: auto;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, 450px);
+            gap: 50px;
+        }
+
+        #container>div {
+            background-color: white;
+            border-radius: 15px;
+            margin-bottom: 50px;
+            transition: transform.5;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+        #container>div:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        #container>div>img {
+            width: 100%;
+            height: 70%;
+            border-radius: 15px;
+        }
+
+        #container>div>p {
+            margin-top: -20px;
+            font-size: 15px;
+            color: #544d4f;
+        }
+
+        #container>div>h3 {
+            font-size: 25px;
+        }
+
+        #container>div>p+img {
+            width: 130px;
+            margin-top: -20px;
+        }
+        @media all and (min-width:320px) and (max-width:480px){
+            #container{
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows:repeat(10,auto);
+            }
+            #container>div>h3{
+                margin-top: -3px;
+            }
+        }
+        @media all and (min-width:480px) and (max-width:720px){
+            #container{
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows:repeat(4,auto);
+            }
+            #container>div>h3{
+                margin-top: -5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MEN</h1>
+    <div id="container">
+        <div>
+            <img src="https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/057a6b161ddc4ed880faadbe01246a71_9366/Classics_Vector_Track_Jacket_Blue_H54456_01_standard.jpg"
+                alt="jpg">
+            <h3>$85</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.reebok.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/64f3fb85c12e475fa58bab2d016433a6_9366/workout-ready-compression-briefs.jpg"
+                alt="jpg">
+            <h3>$90</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14516230/2021/11/25/3137d65e-7b3d-4e24-a2c8-5080a7de3b331637833866033-Kook-N-Keech-Men-Jackets-7431637833865276-1.jpg"
+                alt="jpg">
+            <h3>$110</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15314006/2021/11/18/03ad7c92-d656-427b-b307-40e5525e1fac1637229945344-HERENOW-Men-Jackets-2621637229944743-1.jpg"
+                alt="jpg">
+            <h3>$80</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15135482/2022/4/27/1ab6abdb-7881-4236-a060-5cda4f0a0e721651061024835-Harvard-Men-Jackets-3031651061024192-3.jpg"
+                alt="jpg">
+            <h3>$135</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14550612/2021/12/30/96a89978-413d-4e7d-b60a-79f12daf3bbc1640848713771-Nautica-Men-Jackets-2751640848713047-1.jpg"
+                alt="jpg">
+            <h3>$115</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15095378/2021/11/23/7e3a5b1a-def1-4eec-8ddb-320509c651651637661068484-Urbano-Fashion-Mens-White-Regular-Fit-Washed-Full-Sleeve-Den-4.jpg"
+                alt="jpg">
+            <h3>$120</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15130966/2021/10/25/206cd49c-e406-43c8-818b-3ea4ff4edd971635156302473-WROGN-Men-Brown-Hooded-Biker-Jacket-5801635156301835-1.jpg"
+                alt="jpg">
+            <h3>$95</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16704548/2022/1/6/e76eda50-aff1-454b-90f9-10cff95ed2fb1641456526870BossiniMenOliveGreenStripedLightweightBomberJacket1.jpg"
+                alt="jpg">
+            <h3>$90</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14859212/2022/1/6/c0093336-18bc-4318-b4b2-db5417f6c8851641455636203-Kook-N-Keech-Men-Navy-Blue-Denim-Jacket-9261641455635545-1.jpg"
+                alt="jpg">
+            <h3>$98</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15147860/2021/11/17/61e3c29e-6f60-47c9-879b-84204d5509ab1637152802305USPoloAssnMenNavyBlueSolidPufferJacket1.jpg"
+                alt="jpg">
+            <h3>$105</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/9587533/2019/10/16/aa29432b-a204-4bfe-831e-2ceea7490b9d1571230866518-Roadster-Men-Jackets-9831571230864520-1.jpg"
+                alt="jpg">
+            <h3>$110</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/8/9/e77dab3b-03ce-4e72-93db-8c3ad2d570001596923982750-1.jpg"
+                alt="jpg">
+            <h3>@85</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+            
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15926410/2021/11/22/c9af87a2-a4c3-4f69-be6c-4ac43995db751637569588305-Louis-Philippe-Men-Jackets-6441637569587589-1.jpg"
+                alt="jpg">
+            <h3>$90</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12884586/2020/12/5/393478fb-1456-4655-8fcd-28a9f3797dd21607151401545-Mast--Harbour-Men-Jackets-3561607151398341-1.jpg"
+                alt="">
+            <h3>$105</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/54b1441248d74ba2a476add40026102f_9366/Classics_Vector_Track_Pants_Blue_H54439_01_standard.jpg"
+                alt="logo">
+            <h3>$110</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14028438/2021/4/15/cebc7db9-40ac-493f-a7a8-9f61ad9c357b1618477609428JacketsLeatherRetailMenJacketsLeatherRetailMenJacketsLeather1.jpg"
+                alt="">
+            <h3>$130</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17901820/2022/4/16/f4e8aa4e-18cd-40a0-b25d-01db75f379641650105020341JackJonesMenBlueColourblockedCropDenimJacketwithEmbroidered1.jpg"
+                alt="">
+            <h3>$85</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11275832/2022/4/6/0fedd175-efa2-4346-a6dd-a592b4790f2f1649234504796-High-Star-Men-Black-Solid-Denim-Jacket-3971649234504005-1.jpg"
+                alt="">
+            <h3>$90</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+        <div>
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11822028/2020/11/10/f9ab0323-41d3-4b0d-8d38-9df2ab4bc9ec1604991143213-WROGN-Men-Jackets-2031604991140876-1.jpg"
+                alt="">
+            <h3>$115</h3>
+            <p>Reebok Nano X2 Men's Training Shoes</p>
+        </div>
+    </div>
+</body>
+
+</html>
