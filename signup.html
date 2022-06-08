@@ -6,6 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup Page</title>
     <style>
+        #navbar {
+            border: 1px solid transparent;
+            display: flex;
+            position: fixed;
+            width: 100%;
+            margin: auto;
+            left:0;
+            right: 0;
+            top: 0;
+            justify-content: space-between;
+            background-color: #1d2838;
+        }
+
+        #navbar>div {
+            display: flex;
+            margin: auto;
+            justify-content: space-evenly;
+            margin: 0px 15px;
+        }
+
+        #navbar>div>div {
+            width: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        #navbar>div>div:hover {
+            background-color: lightslategray;
+            cursor: pointer;
+        }
+
+        #navbar>div:nth-child(1) {
+            color: white;
+            font-weight: bolder;
+            width: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #navbar>div:nth-child(1):hover {
+            background-color: lightslategray;
+            cursor: pointer;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
         #container{
             width:30%;
             height:500px;
@@ -14,7 +65,7 @@
             margin-top:100px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
-        p{
+        #container>p{
             font-size: 30px;
             text-align: center;
             padding-top: 30px;
@@ -42,18 +93,37 @@
             cursor: pointer;
             background-color: #075347;
         }
+        @media all and (min-width:320px) and (max-width:480px){
+            #container{
+                width: 80%;
+                margin: auto;
+                margin-top: 100px;
+                height: 450px;
+            }
+        }
 
 
     </style>
 </head>
 <body>
+    <div id="navbar">
+        <div>
+            <p><a href="index.html">Reebok</a></p>
+        </div>
+        <div>
+            <div><a href="men's.html">Men's</a></div>
+            <div><a href="women's.html">Women's</a></div>
+            <div><a href="login.html">Login</a></div>
+            <div><a href="signup.html">Signup</a></div>
+        </div>
+    </div>
     <div id="container">
         <p>-  Visitor  -</p>
         <input  type="text" placeholder="Full name"><br>
         <input  type="text" placeholder="Email"><br>
         <input  type="text" placeholder="Organization"><br>
         <button >SIGN UP</button><br>
-        <button >RETURN</button>
+        <button ><a href="index.html">RETURN</a></button>
     </div>
 </body>
 </html>
